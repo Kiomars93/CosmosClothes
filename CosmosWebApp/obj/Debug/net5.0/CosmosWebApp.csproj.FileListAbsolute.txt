@@ -9,7 +9,6 @@ C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\bin\
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\bin\Debug\net5.0\CosmosWebApp.pdb
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\bin\Debug\net5.0\CosmosWebApp.Views.dll
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\bin\Debug\net5.0\CosmosWebApp.Views.pdb
-C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Debug\net5.0\CosmosWebApp.csproj.AssemblyReference.cache
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Debug\net5.0\CosmosWebApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Debug\net5.0\CosmosWebApp.AssemblyInfoInputs.cache
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Debug\net5.0\CosmosWebApp.AssemblyInfo.cs
