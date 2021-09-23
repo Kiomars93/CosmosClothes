@@ -37,3 +37,4 @@ C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Debug\net5.0\CosmosWebApp.pdb
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Debug\net5.0\CosmosWebApp.genruntimeconfig.cache
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Debug\net5.0\CosmosWebApp.csproj.CopyComplete
+C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Debug\net5.0\CosmosWebApp.csproj.AssemblyReference.cache
