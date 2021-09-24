@@ -21,5 +21,24 @@ namespace CosmosWebApp.Pages
         {
 
         }
+
+        //public IActionResult OnPostAsync()
+        //{
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return Page();
+        //    }
+        //    var client = new RestClient($"https://localhost:44393/api/SendEmail/SendEmail/?{Mail.FromEmail}{Mail.ToEmail}");
+        //    client.Timeout = -1;
+        //    var request = new RestRequest(Method.POST);
+        //    request.AddHeader("ApiKey", "secret1234");
+        //    IRestResponse response = client.Execute(request);
+
+        //    if (response.StatusCode.ToString() == "OK")
+        //    {
+        //        return RedirectToPage("/Index");
+        //    }
+        //    return Page();
+        //}
     }
 }
