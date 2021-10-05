@@ -21,11 +21,9 @@ namespace CosmosWebApp.Pages
 
         public async Task<IActionResult> OnPostAsync()
         {
-            if (Clothes.Title != null || Clothes.Description != null)
-            {
-                Clothes.Id = Guid.NewGuid().ToString();
-                await _cosmosDbService.AddItemAsync(Clothes);
-            }
+
+            Clothes.Id = Guid.NewGuid().ToString();
+            await _cosmosDbService.AddItemAsync(Clothes);
 
             return Redirect("/Index");
         }

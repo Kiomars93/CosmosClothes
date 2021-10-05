@@ -1,10 +1,10 @@
 ﻿@page
 @model CreateModel
 @{
-    ViewBag.Title = "Add more Items";
+    ViewBag.Title = "Add more Clothes";
 }
 
-<h2>Create a new To-Do Item</h2>
+<h2>Add Clothes</h2>
 
 <div class="w-50 justify-content-md-center" style="margin-left:25%">
     <h2 class="display-4" style="text-align: center">Add a new Clothes item</h2>
@@ -15,6 +15,12 @@
         <br />
         @Html.LabelFor(a => a.Clothes.Description)
         <input asp-for="Clothes.Description" required class="form-control">
+        <br />
+        @Html.LabelFor(a => a.Clothes.Color)
+        <input asp-for="Clothes.Color" required class="form-control">
+        <br />
+        @Html.LabelFor(a => a.Clothes.Price)
+        <input asp-for="Clothes.Price" required class="form-control">
         <br />
         <button type="submit" class="btn btn-dark w-25">Submit</button>
     </form>
