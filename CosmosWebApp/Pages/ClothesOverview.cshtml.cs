@@ -5,15 +5,19 @@ using System.Threading.Tasks;
 using CosmosWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
 
 namespace CosmosWebApp.Pages
 {
     public class ClothesOverviewModel : PageModel
     {
         private readonly ICosmosDbService _cosmosDbService;
-        public ClothesOverviewModel(ICosmosDbService cosmosDbService)
+        private readonly ILogger<ClothesOverviewModel> _logger;
+        public ClothesOverviewModel(ICosmosDbService cosmosDbService, ILogger<ClothesOverviewModel> logger)
         {
             _cosmosDbService = cosmosDbService;
+            _logger = logger;
+            _logger.LogDebug(1, "NLog injected into ClothesOverviewModel");
         }
 
         [BindProperty]
@@ -29,7 +33,7 @@ namespace CosmosWebApp.Pages
             {
                 ClothesList.Add(clothItem);
             }
-
+            _logger.LogInformation("Added to the list!");
             return Page();
         }
     }

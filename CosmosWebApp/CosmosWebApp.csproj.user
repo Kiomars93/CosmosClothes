@@ -4,5 +4,9 @@
     <NameOfLastUsedPublishProfile>C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\Properties\PublishProfiles\CosmoRazor - Zip Deploy.pubxml</NameOfLastUsedPublishProfile>
     <RazorPage_SelectedScaffolderID>RazorPageScaffolder</RazorPage_SelectedScaffolderID>
     <RazorPage_SelectedScaffolderCategoryPath>root/Common/RazorPage</RazorPage_SelectedScaffolderCategoryPath>
+    <ActiveDebugProfile>CosmosWebApp</ActiveDebugProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
