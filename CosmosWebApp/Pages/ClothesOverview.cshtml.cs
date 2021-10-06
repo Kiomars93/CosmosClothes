@@ -17,6 +17,10 @@ namespace CosmosWebApp.Pages
         {
             _cosmosDbService = cosmosDbService;
             _logger = logger;
+<<<<<<< HEAD
+=======
+            _logger.LogDebug(1, "NLog injected into ClothesOverviewModel");
+>>>>>>> 182fb193b8b924df1e233daf32963c43a39edd29
         }
 
         [BindProperty]
@@ -39,6 +43,10 @@ namespace CosmosWebApp.Pages
                 }
                 _logger.LogInformation("Items has been added");
             }
+<<<<<<< HEAD
+=======
+            _logger.LogInformation("Added to the list!");
+>>>>>>> 182fb193b8b924df1e233daf32963c43a39edd29
             return Page();
         }
     }
