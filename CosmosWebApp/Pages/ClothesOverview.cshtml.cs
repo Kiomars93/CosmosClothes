@@ -17,6 +17,13 @@ namespace CosmosWebApp.Pages
         {
             _cosmosDbService = cosmosDbService;
             _logger = logger;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+            _logger.LogDebug(1, "NLog injected into ClothesOverviewModel");
+>>>>>>> 182fb193b8b924df1e233daf32963c43a39edd29
+>>>>>>> b78c9acfaba09e110a98544cd56a6599859d6b84
         }
 
         [BindProperty]
@@ -30,6 +37,7 @@ namespace CosmosWebApp.Pages
             if (result == null)
             {
                 _logger.LogWarning("No items has been found!");
+<<<<<<< HEAD
             }
             else
             {
@@ -39,6 +47,21 @@ namespace CosmosWebApp.Pages
                 }
                 _logger.LogInformation("Items has been added");
             }
+=======
+            }
+            else
+            {
+                foreach (var clothItem in result)
+                {
+                    ClothesList.Add(clothItem);
+                }
+                _logger.LogInformation("Items has been added");
+            }
+<<<<<<< HEAD
+=======
+            _logger.LogInformation("Added to the list!");
+>>>>>>> 182fb193b8b924df1e233daf32963c43a39edd29
+>>>>>>> b78c9acfaba09e110a98544cd56a6599859d6b84
             return Page();
         }
     }

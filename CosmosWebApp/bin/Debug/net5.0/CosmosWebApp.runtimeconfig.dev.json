@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\Kioma\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Kioma\\.nuget\\packages"
-    ]
-  }
-}
