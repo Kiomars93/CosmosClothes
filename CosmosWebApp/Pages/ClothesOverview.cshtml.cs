@@ -5,15 +5,22 @@ using System.Threading.Tasks;
 using CosmosWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
 
 namespace CosmosWebApp.Pages
 {
     public class ClothesOverviewModel : PageModel
     {
         private readonly ICosmosDbService _cosmosDbService;
-        public ClothesOverviewModel(ICosmosDbService cosmosDbService)
+        private readonly ILogger<ClothesOverviewModel> _logger;
+        public ClothesOverviewModel(ICosmosDbService cosmosDbService, ILogger<ClothesOverviewModel> logger)
         {
             _cosmosDbService = cosmosDbService;
+            _logger = logger;
+<<<<<<< HEAD
+=======
+            _logger.LogDebug(1, "NLog injected into ClothesOverviewModel");
+>>>>>>> 182fb193b8b924df1e233daf32963c43a39edd29
         }
 
         [BindProperty]
@@ -24,12 +31,22 @@ namespace CosmosWebApp.Pages
         public async Task<IActionResult> OnGet()
         {
             var result = await _cosmosDbService.GetItemsAsync("SELECT * FROM c");
-
-            foreach (var clothItem in result)
+            if (result == null)
             {
-                ClothesList.Add(clothItem);
+                _logger.LogWarning("No items has been found!");
             }
-
+            else
+            {
+                foreach (var clothItem in result)
+                {
+                    ClothesList.Add(clothItem);
+                }
+                _logger.LogInformation("Items has been added");
+            }
+<<<<<<< HEAD
+=======
+            _logger.LogInformation("Added to the list!");
+>>>>>>> 182fb193b8b924df1e233daf32963c43a39edd29
             return Page();
         }
     }
