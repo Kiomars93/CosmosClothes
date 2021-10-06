@@ -39,8 +39,6 @@ namespace CosmosWebApp.Pages
                 }
                 _logger.LogInformation("Items has been added");
             }
-            
-            _logger.LogInformation("Added to the list!");
             return Page();
         }
     }
