@@ -39,6 +39,7 @@ C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Release\net5.0\PubTmp\Out\proxies.json
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Release\net5.0\PubTmp\Out\CosmosWebApp.dll
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Release\net5.0\PubTmp\Out\CosmosWebApp.deps.json
 C:\Users\Kioma\Documents\GitHub\Teknikhögskolan\CosmosClothes\CosmosWebApp\obj\Release\net5.0\PubTmp\Out\CosmosWebApp.runtimeconfig.json
